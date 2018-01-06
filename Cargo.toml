@@ -1,0 +1,8 @@
+[package]
+name = "gdal-compare"
+version = "0.1.0"
+authors = ["André Rocha <rocha.matcomp@gmail.com>"]
+
+[dependencies]
+ndarray = "*"
+gdal = {git = "https://github.com/rochamatcomp/rust-gdal", branch = "raster-ndarray"}
