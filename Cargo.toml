@@ -2,6 +2,12 @@
 name = "gdal-compare"
 version = "0.1.0"
 authors = ["André Rocha <rocha.matcomp@gmail.com>"]
+repository = "https://github.com/rochamatcomp/gdal-compare"
+license = "MIT"
+readme = "README.md"
+keywords = ["geoprocessing", "raster", "compare", "comparation", "mathematics"]
+categories = ["algorithms", "science"]
+description = "GDAL raster compare is the Rust library to compare two geographic raster files for differences."
 
 [dependencies]
 ndarray = "*"
